@@ -1,0 +1,33 @@
+This is an example using Firefox and localhost proxy
+
+1. Go to Firefox and look for proxy configuration. Use localhost and port 8888.
+
+2. Thread Group: In JMeter, right click on Test Plan > Add > Threads (Users) > Thread Group.
+    You can use this Thread Group to indicate how many users you want.
+    
+3. HTTPS Test Script Recorder: We will use this to connect to the WebApp.
+    Add > Non-Test elements > HTTPS Test Script Recorder
+    Port: 8888
+    Target Controller: {The Thread Group we created}
+    Capture HTTP Headers: ON
+    
+4. View Results Tree: Add > Listener > View Results Tree
+
+5. Aggregate Report: Add > Listener> Aggregate Report
+
+6. Go to the HTTPS Test Script Recorder and click Start:
+    - Write a prefix in 'Transaction name' and do the action in the WebApp. Repeat this for each action you want to record.
+    - Click "STOP"
+    - Clear All
+    - Start
+    
+7. Timers: can be added globaly or per request
+  7.1 Constant
+  7.2 Uniform Random
+  7.2 Gaussian Random
+ 
+8. Response Assertion: check answers from server with conditions like response time, text in the answer, json...
+
+9. Parameters: Add > Config Element > CSV Data Set
+  - Lad CSV file with the data
+    
