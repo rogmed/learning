@@ -1,0 +1,146 @@
+Skip to content
+ 
+Search…
+All gists
+Back to GitHub
+@rogmed 
+@rodw
+rodw/.gitignore
+Created 11 years ago • Report abuse
+1
+0
+Code
+Revisions
+2
+Stars
+1
+<script src="https://gist.github.com/rodw/3006349.js"></script>
+A General Purpose .gitignore file
+.gitignore
+
+######################################################################
+# derived from https://gist.github.com/3006349
+######################################################################
+# also see https://github.com/github/gitignore
+
+
+######################################################################
+## STUFF TO CUSTOMIZE - you probably don't want all of these.
+######################################################################
+
+## node.js
+node_modules
+lib-cov
+
+## coffeescript
+lib/*.js
+test/*.js
+
+## ruby
+*.gem
+*.rbc
+.bundle
+.config
+
+## archives and compressed files
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.xz
+*.lzma
+*.tar
+*.tgz
+*.tar.gz
+*.iso
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+
+######################################################################
+## TRULY GENERIC - these are probably OK as is
+######################################################################
+
+## common temp file patterns
+*~
+*.*~
+.#*
+\#*#
+.*.sw[a-z]
+
+## editors and ides
+
+### emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+### vim
+*.un~
+Session.vim
+
+## os-specific noise files
+
+### linux flavors
+.directory
+
+### osx
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+### windows
+Desktop.ini
+$RECYCLE.BIN/
+Thumbs.db 
+
+## commonly used temp files and directories
+*.log
+*.pid
+log
+logs
+tmp
+temp
+
+## tags, gtags, etags, ctags
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+TAGS
+@rogmed
+ 
+Add heading textAdd bold text, <Ctrl+b>Add italic text, <Ctrl+i>
+Add a quote, <Ctrl+Shift+.>Add code, <Ctrl+e>Add a link, <Ctrl+k>
+Add a bulleted list, <Ctrl+Shift+8>Add a numbered list, <Ctrl+Shift+7>Add a task list, <Ctrl+Shift+l>
+Directly mention a user or team
+Reference an issue or pull request
+Leave a comment
+Ninguno archivo selec.
+Attach files by dragging & dropping, selecting or pasting them.
+Styling with Markdown is supported
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
