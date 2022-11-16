@@ -1,6 +1,6 @@
 var request = new XMLHttpRequest();
 
-request.open('GET', ‘https://hplussport.com/api/products');
+request.open('GET', 'https://hplussport.com/api/products');
 
 request.onload = function() {
    var response = request.response
@@ -8,4 +8,4 @@ request.onload = function() {
    console.log(parsedData);
 }
 
-request.send(); 
+request.send();
